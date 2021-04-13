@@ -6,25 +6,65 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
   <title>Personal Portfolio Webpage</title>
 </head>
 
 <nav id="navbar">
-  <a href="">About</a>
-  <a href="">Project</a>
-  <a href="">Contact</a>
+  <a href="#welcome-section">About</a>
+  <a href="#projects">Project</a>
+  <a href="#contact ">Contact</a>
 </nav>
 
 <section id="welcome-section">
-  <h1>Halo I am Amirul Hidayat</h1>
+  <h1>Hello I am Amirul Hidayat</h1>
   <p>a web developer</p>
 </section>
 
 <section id="projects">
   <h1>My Project</h1>
   <div class="project-tile">
-    <a href=""></a><a href=""></a><a href=""></a><a href=""></a>
+    <div class="container-project"><a href="https://codepen.io/amirhdytt/full/mdOPVrV" target="_blank"><img
+          src="img/tributepage.png" alt="tributepage">
+        <p class="btn"><span> - </span>Tribute Page<span> - </span></p>
+      </a>
+    </div>
+    <div class="container-project"><a href="https://codepen.io/amirhdytt/full/mdOEbmM" target="_blank"><img
+          src="img/suveypage.png" alt="tributepage">
+        <p class="btn"><span> - </span>Survey Page<span> - </span></p>
+      </a>
+    </div>
+    <div class="container-project"><a href="https://codepen.io/amirhdytt/full/KKNMYKg" target="_blank"><img
+          src="img/productlandingpage.png" alt="tributepage">
+        <p class="btn"><span> - </span>Product Landing Page<span> - </span></p>
+      </a>
+    </div>
+    <div class="container-project"><a href="https://codepen.io/amirhdytt/full/KKNMYKg" target="_blank"><img
+          src="img/technicaldomentationpage.png" alt="tributepage">
+        <p class="btn"><span> - </span>Domentation Page<span> - </span></p>
+      </a>
+    </div>
   </div>
+</section>
+
+
+<section id="contact">
+  <h1>Let's Work Together...</h1>
+  <div class="container-contact">
+    <i class="fab fa-facebook-square"> Facebook</i>
+    <a id="profile-link" href="https://github.com/amirhdytt" target="_blank"><i class="fab fa-github"> Github</i></a>
+    <i class="fab fa-twitter"> Twitter</i>
+    <i class="fas fa-at"> Send a mail</i>
+    <i class="fas fa-mobile-alt"> Call me</i>
+  </div>
+</section>
+
+<section id="footer">
+  <p>**This is just a fake portfolio. All the projects and contact details given are not real.
+  </p>
+  <p>© Created for freeCodeCamp </p>
 </section>
 
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
